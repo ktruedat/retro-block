@@ -1,0 +1,187 @@
+{
+	"name": "Retro Block",
+	"type": "dark",
+	"colors": {
+	  "editor.background": "#222226",
+	  "editor.foreground": "#cfcfcf",
+	  "editorCursor.foreground": "#dadada",
+	  "editor.lineHighlightBackground": "#1d1d21",
+	  "editorLineNumber.foreground": "#524f4c",
+	  "editorLineNumber.activeForeground": "#cfcfcf",
+	  "editor.selectionBackground": "#2d4b5e",
+	  "editor.selectionForeground": "#d2c8a9",
+	  "editor.findMatchBackground": "#d2b488",
+	  "editor.findMatchHighlightBackground": "#0e0e0e",
+	  "editorIndentGuide.background": "#222226",
+	  "editorIndentGuide.activeBackground": "#555344",
+	  "editorRuler.foreground": "#27272b",
+	  "editorGutter.background": "#222226",
+	  "editorError.foreground": "#ff2121",
+	  "editorWarning.foreground": "#ff7543",
+	  "terminal.background": "#222226",
+	  "terminal.foreground": "#d5cdbd",
+	  "terminal.ansiBlack": "#e5e1d3",
+	  "terminal.ansiBlue": "#becec8",
+	  "terminal.ansiBrightBlue": "#becec8",
+	  "terminal.ansiCyan": "#c2e9b5",
+	  "terminal.ansiBrightCyan": "#c2e9b5",
+	  "terminal.ansiGreen": "#e1e44c",
+	  "terminal.ansiBrightGreen": "#e1e44c",
+	  "terminal.ansiMagenta": "#fcc0d1",
+	  "terminal.ansiBrightMagenta": "#fcc0d1",
+	  "terminal.ansiRed": "#ff6856",
+	  "terminal.ansiBrightRed": "#ff6856",
+	  "terminal.ansiYellow": "#ffcb51",
+	  "terminal.ansiBrightYellow": "#ffcb51",
+	  "terminal.ansiWhite": "#d5cdbd",
+	  "terminal.ansiBrightWhite": "#d5cdbd",
+	  "activityBar.background": "#1d1d21",
+	  "activityBar.foreground": "#cfcfcf",
+	  "statusBar.background": "#1b1b1e",
+	  "statusBar.foreground": "#cfcfcf",
+	  "sideBar.background": "#1d1d21",
+	  "sideBar.foreground": "#cfcfcf",
+	  "tab.activeBackground": "#222226",
+	  "tab.inactiveBackground": "#1d1d21",
+	  "tab.activeForeground": "#cfcfcf",
+	  "tab.inactiveForeground": "#8b8070",
+	  "editorGroupHeader.tabsBackground": "#1b1b1e",
+	  "diffEditor.insertedTextBackground": "#2c352c",
+	  "diffEditor.removedTextBackground": "#2e2e34",
+	  "scrollbarSlider.background": "#29292e88",
+	  "scrollbarSlider.hoverBackground": "#3b33338a",
+	  "scrollbarSlider.activeBackground": "#3b446199"
+	},
+	"tokenColors": [
+	  {
+		"name": "Comments",
+		"scope": ["comment", "punctuation.definition.comment"],
+		"settings": {
+		  "foreground": "#8b8070",
+		  "fontStyle": "italic"
+		}
+	  },
+	  {
+		"name": "Keywords",
+		"scope": "keyword",
+		"settings": {
+		  "foreground": "#d2b488"
+		}
+	  },
+	  {
+		"name": "Strings",
+		"scope": "string",
+		"settings": {
+		  "foreground": "#b0b199",
+		  "background": "#27272b"
+		}
+	  },
+	  {
+		"name": "Numbers",
+		"scope": "constant.numeric",
+		"settings": {
+		  "foreground": "#93c2ac"
+		}
+	  },
+	  {
+		"name": "Function declarations",
+		"scope": ["entity.name.function", "support.function"],
+		"settings": {
+		  "foreground": "#cfcfcf"
+		}
+	  },
+	  {
+		"name": "Class names",
+		"scope": ["entity.name.class", "entity.name.type"],
+		"settings": {
+		  "foreground": "#a1a9b8"
+		}
+	  },
+	  {
+		"name": "Constants",
+		"scope": ["constant", "variable.other.constant"],
+		"settings": {
+		  "foreground": "#a7a9af",
+		  "fontStyle": "bold"
+		}
+	  },
+	  {
+		"name": "Variables",
+		"scope": "variable",
+		"settings": {
+		  "foreground": "#cfcfcf"
+		}
+	  },
+	  {
+		"name": "Parameters",
+		"scope": "variable.parameter",
+		"settings": {
+		  "foreground": "#e88787"
+		}
+	  },
+	  {
+		"name": "String escape sequences",
+		"scope": "constant.character.escape",
+		"settings": {
+		  "foreground": "#d2b488"
+		}
+	  },
+	  {
+		"name": "Attributes",
+		"scope": "entity.other.attribute-name",
+		"settings": {
+		  "foreground": "#e88787"
+		}
+	  },
+	  {
+		"name": "HTML/XML Tags",
+		"scope": ["entity.name.tag", "punctuation.definition.tag"],
+		"settings": {
+		  "foreground": "#d2b488"
+		}
+	  },
+	  {
+		"name": "Markup - Heading",
+		"scope": "markup.heading",
+		"settings": {
+		  "foreground": "#ffcb51"
+		}
+	  },
+	  {
+		"name": "Invalid",
+		"scope": "invalid",
+		"settings": {
+		  "foreground": "#e8e8e8",
+		  "background": "#a63939"
+		}
+	  },
+	  {
+		"name": "Operators",
+		"scope": "keyword.operator",
+		"settings": {
+		  "foreground": "#cfcfcf"
+		}
+	  },
+	  {
+		"name": "Documentation Comments",
+		"scope": ["comment.block.documentation", "comment.block.javadoc"],
+		"settings": {
+		  "foreground": "#8b8070"
+		}
+	  },
+	  {
+		"name": "Doc Comment Tags",
+		"scope": ["comment.block.documentation storage.type", "comment.block.javadoc keyword"],
+		"settings": {
+		  "foreground": "#bfb4a5"
+		}
+	  },
+	  {
+		"name": "Storage Types",
+		"scope": "storage.type",
+		"settings": {
+		  "foreground": "#d2b488"
+		}
+	  }
+	]
+  }
